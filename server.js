@@ -22,5 +22,5 @@ app.use('/readings', readingRoutes);
 // Ruta de prueba
 app.get('/test', (req, res) => res.json({ msg: 'El API REST funciona!' }));
 
-// Iniciar servidor
+// Iniciar servidor 
 app.listen(port, () => console.log(`Servidor corriendo en el puerto ${port}`));
