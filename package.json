@@ -1,0 +1,23 @@
+{
+  "name": "api_sensores",
+  "version": "1.0.0",
+  "description": "API de sensores para EMYD",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "API",
+    "Sensores",
+    "IoT"
+  ],
+  "author": "Carlos Dominguez",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "moment": "^2.30.1",
+    "mongo-sanitize": "^1.1.0",
+    "mongoose": "^8.12.1"
+  }
+}
